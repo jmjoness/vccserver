@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Visca Camera Controller</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+	<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body onload="init()">
+	<div id="page">
+		<div id="header">
+			<h2>Visca Camera Controller</h2>
+		</div>
+		<div id="content">
+			<div id="start">
+				<input type="button" id="start-button" class="ctl-button" value= "Start" onclick="start()">
+				<select id="port-selector"></select>
+				<input type="button" id="stop-button" class="ctl-button" value= "Stop" onclick="stop()">
+				<!-- <input type="text" id="debug-field" style="width:200px; font-size:16px;"> -->
+			</div>
+			<div id="ptz">
+				<div id="pt">
+					<div id="ptrate" class="vert-rate">
+						<input type="range" id="pan-rate" min="1" max="17">
+					</div>
+					<div id="ptgrid">
+						<div id="line1" class="ptline">
+							<input type="button" id="ul-btn" class="ctl-button" value= "U/L" onclick="ul()">
+							<input type="button" id="u-btn" class="ctl-button" value= "Up" onclick="up()">
+							<input type="button" id="ur-btn" class="ctl-button" value= "U/R" onclick="ur()">
+						</div>
+						<div id="line2" class="ptline">
+							<input type="button" id="l-btn" class="ctl-button" value= "Left" onclick="left()">
+							<input type="button" id="c-btn" class="ctl-button" value= "Center" onclick="center()">
+							<input type="button" id="r-btn" class="ctl-button" value= "Right" onclick="right()">
+						</div>
+						<div id="line3" class="ptline">
+							<input type="button" id="dl-btn" class="ctl-button" value= "D/L" onclick="dl()">
+							<input type="button" id="d-btn" class="ctl-button" value= "Down" onclick="down()">
+							<input type="button" id="dr-btn" class="ctl-button" value= "D/R" onclick="dr()">
+						</div>
+					</div>
+				</div>
+				<div id="zoom">
+					<div class="vert-rate">
+						<input type="range" id="zoom-rate" min="0" max="7" />
+					</div>
+					<div id="zoom-btns">
+						<input type="button" id="t-btn" class="ctl-button" value= "Tele" onclick="zoomin()">
+						<input type="button" id="w-btn" class="ctl-button" value= "Wide" onclick="zoomout()">
+					</div>
+				</div>
+				<div id="preset">
+					<div id="presetgrid">
+						<div id="pline1" class="ptline">
+							<div class="pre-column">
+								<input type="button" class="pre-button" value= "1" onclick="recall(0)">
+								<input type="button" class="pre-button" value= "Set" onclick="preset(0)">
+							</div>
+							<div class="pre-column">
+								<input type="button" class="pre-button" value= "2" onclick="recall(1)">
+								<input type="button" class="pre-button" value= "Set" onclick="preset(1)">
+							</div>
+							<div class="pre-column">
+								<input type="button" class="pre-button" value= "3" onclick="recall(2)">
+								<input type="button" class="pre-button" value= "Set" onclick="preset(2)">
+							</div>
+							<div class="pre-column">
+								<input type="button" class="pre-button" value= "4" onclick="recall(3)">
+								<input type="button" class="pre-button" value= "Set" onclick="preset(3)">
+							</div>
+							<div class="pre-column">
+								<input type="button" class="pre-button" value= "5" onclick="recall(4)">
+								<input type="button" class="pre-button" value= "Set" onclick="preset(4)">
+							</div>
+							<div class="pre-column">
+								<input type="button" class="pre-button" value= "6" onclick="recall(5)">
+								<input type="button" class="pre-button" value= "Set" onclick="preset(5)">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</html>
+
+<script type="text/javascript">
+
+	// const debugField = document.getElementById("debug-field")
+	const initScreenWidth = screen.width
+
+	function init() {
+		document.getElementById("ul-btn").addEventListener("click", prevent)
+		document.getElementById("u-btn").addEventListener("click", prevent)
+		document.getElementById("ur-btn").addEventListener("click", prevent)
+		document.getElementById("l-btn").addEventListener("click", prevent)
+		document.getElementById("c-btn").addEventListener("click", prevent)
+		document.getElementById("r-btn").addEventListener("click", prevent)
+		document.getElementById("dl-btn").addEventListener("click", prevent)
+		document.getElementById("d-btn").addEventListener("click", prevent)
+		document.getElementById("dr-btn").addEventListener("click", prevent)
+		document.getElementById("t-btn").addEventListener("click", prevent)
+		document.getElementById("w-btn").addEventListener("click", prevent)
+
+		let url = "{{ url_for('.checkport')}}"
+
+		fetch(url)
+		.then(response => {
+			setupPorts()
+			if (!response.ok) {
+				document.getElementById("stop-button").style.display = "none"
+			} else {
+				document.getElementById("start-button").style.display = "none"
+			}
+		})
+	}
+
+	function prevent(event) {
+		event.preventDefault()
+		event.stopPropagation()
+	}
+
+	function setupPorts() {
+		console.log("setupPorts()")
+		let url = "{{ url_for('.getports')}}"
+
+		fetch(url)
+		.then(response => {
+			if (response.ok) {
+				return response.json();
+			} else {
+				alert("Make tree report failed");
+			}
+		})
+		.then(response => {
+			console.log("got json")
+			let sel = document.getElementById("port-selector")
+			let portList = response.ports
+			for (let p of portList) {
+				console.log("port: ", p)
+				const opt = document.createElement("option")
+				opt.value = p
+				opt.innerText = p
+				sel.appendChild(opt);
+			}
+		})
+	}
+
+	function start() {
+		const port = document.getElementById("port-selector").value
+		console.log("port:", port)
+		// const port = document.getElementById("port-field").value
+		let url = "{{ url_for('.start', name='portTag') }}"
+		url = url.replace('portTag', port)
+
+		fetch(url)
+			.then(response => {
+				if (response.ok) {
+					document.getElementById("start-button").style.display = "none"
+					document.getElementById("stop-button").style.display = "block"
+					setupPorts()
+				} else {
+					throw new Error("Unable to start communications");
+				}
+			})
+			.catch(err => {
+				alert("Communications start failed: " + err.message);
+			});
+	}
+
+	function stop() {
+		let url = "{{ url_for('.stop') }}"
+
+		fetch(url)
+			.then(response => {
+				if (response.ok) {
+					document.getElementById("start-button").style.display = "block"
+					document.getElementById("stop-button").style.display = "none"
+				} else {
+					throw new Error("Unable to stop communications");
+				}
+			})
+			.catch(err => {
+				alert("Communications stop failed: " + err.message);
+			});
+	}
+
+	function up() {
+		pantilt(1, 'u')
+	}
+	function down() {
+		pantilt(1, 'd')
+	}
+	function left() {
+		pantilt(1, 'l')
+	}
+	function right() {
+		pantilt(1, 'r')
+	}
+
+	function ur() {
+		pantilt(1, 'ur')
+	}
+	function ul() {
+		pantilt(1, 'ul')
+	}
+	function dr() {
+		pantilt(1, 'dr')
+	}
+	function dl() {
+		pantilt(1, 'dlr')
+	}
+
+	function pantilt(id, dir) {
+		let rate = document.getElementById("pan-rate").value
+
+		let url = "{{ url_for('.ptdrive', id='idTag', dir='dirTag', spd='spdTag') }}"
+
+		url = url.replace('idTag', id)
+		url = url.replace('dirTag', dir)
+		url = url.replace('spdTag', rate)
+
+		fetch(url)
+			.then(response => {
+				if (!response.ok) {
+					throw new Error("Unable to pan/tilt");
+				}
+			})
+			.catch(err => {
+				alert("Pan/Tilt failed: " + err.message);
+			});
+	}
+
+	function center() {
+		let url = "{{ url_for('.ptcenter', id='1') }}"
+
+		fetch(url)
+			.then(response => {
+				if (!response.ok) {
+					throw new Error("Unable to center");
+				}
+			})
+			.catch(err => {
+				alert("Center failed: " + err.message);
+			});
+	}
+
+	function zoomin() {
+		zoom(1, 'in')
+	}
+	function zoomout() {
+		zoom(1, 'out')
+	}
+
+	function zoom(id, inout) {
+		let rate = document.getElementById("zoom-rate").value
+
+		let url = "{{ url_for('.zoom', id='idTag', inout='dirTag', spd='spdTag') }}"
+
+		url = url.replace('idTag', id)
+		url = url.replace('dirTag', inout)
+		url = url.replace('spdTag', rate)
+
+		fetch(url)
+			.then(response => {
+				if (!response.ok) {
+					throw new Error("Unable to zoom");
+				}
+			})
+			.catch(err => {
+				alert("Zoom failed: " + err.message);
+			});
+	}
+
+	function preset(n) {
+		let url = "{{ url_for('.preset', id='1', set='set', num='numTag') }}"
+		url = url.replace('numTag', n)
+
+		fetch(url)
+			.then(response => {
+				if (!response.ok) {
+					throw new Error("Unable to preset");
+				}
+			})
+			.catch(err => {
+				alert("Preset failed: " + err.message);
+			});
+	}
+
+	function recall(n) {
+		let url = "{{ url_for('.preset', id='1', set='recall', num='numTag') }}"
+		url = url.replace('numTag', n)
+
+		fetch(url)
+			.then(response => {
+				if (!response.ok) {
+					throw new Error("Unable to recall");
+				}
+			})
+			.catch(err => {
+				alert("Recall failed: " + err.message);
+			});
+	}
+</script>

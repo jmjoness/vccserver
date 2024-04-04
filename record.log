@@ -1,0 +1,2561 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:17:59] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:02] "GET /start/COM7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:02] "[31m[1mGET /start/COM7 HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:11] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:13] "GET /start/COM7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:15] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:15] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:17] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:18] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2023 13:18:18] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-977-288
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 05:58:37] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 05:58:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 05:58:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 05:58:54] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 05:58:54] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:35] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:43] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:44] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:49] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:49] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:56] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:58] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:59] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 05:59:59] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:01] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:02] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:13] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:16] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:16] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:18] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:25] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:25] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:42] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:00:43] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:20] "GET /ptdrive/1/u/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:28] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:28] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:32] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:33] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:34] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:34] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:01:35] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:42] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:45] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:46] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:48] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:48] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:48] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:48] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:48] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:49] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:49] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:49] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:49] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:50] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:01:50] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:24] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:25] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:26] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:28] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:29] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:30] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:30] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:30] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:30] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:53] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:53] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:54] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:55] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:57] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:57] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:59] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:02:59] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:03:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 06:03:10] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:03:19] "GET /preset/1/set/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:03:21] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 06:03:23] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-977-288
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-977-288
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-977-288
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:00:38] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:00:45] "GET /start/Com5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:00:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:00:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:00:53] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:00:53] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:00:59] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:00] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:01] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:02] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:02] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:03] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:04] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:05] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:05] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:15] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:01:17] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:22:58] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:23:00] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:23:02] "GET /start/Com5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:23:06] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:23:07] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:29:55] "GET /start/Com5 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:30:10] "[31m[1mGET /ptdrive/1/d/17 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:31:23] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:31:24] "GET /ptdrive/1/l/17 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:32:38] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:32:45] "GET /ptdrive/1/d/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:32:48] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:37:12] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:37:14] "GET /ptdrive/1/d/17 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 07:37:16] "GET /ptdrive/1/u/17 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:03:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:03:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:03:51] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:04:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:04:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:04:11] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:04:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:04:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:04:30] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:04:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:04:47] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:04:47] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:04:47] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:05:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:05:58] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:05:58] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:05:58] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:16] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:16] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:42] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:42] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:06:42] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:07:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:07:42] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:07:42] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:07:42] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:08:34] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:08:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:08:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:08:46] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:08:46] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:09:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:09:57] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:09:57] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:09:57] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:09:57] "[35m[1mGET /getports HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:14:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:14:21] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:14:21] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:14:21] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:14:21] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:16:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:16:12] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:16:12] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:16:12] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:16:12] "GET /getports HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:17:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:17:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:17:33] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:17:33] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:17:33] "GET /getports HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:16] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:16] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:16] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:21] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:46] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:52] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:20:54] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:21:01] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:21:06] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:22:57] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:23:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:23:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:23:00] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:23:00] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:23:00] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:23:02] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:23:07] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:26:24] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:27:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:27:31] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:27:31] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:27:31] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:27:32] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:27:36] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:27:40] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:30:18] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:30:24] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:31:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:31:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:31:45] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:31:45] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:31:45] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:31:49] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:53:54] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:53:57] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:53:59] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:53:59] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:01] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:05] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:05] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:05] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:06] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:06] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:06] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:06] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:07] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:07] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:07] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:07] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:07] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:08] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:08] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:08] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:08] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:09] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:09] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:09] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:09] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:10] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 08:54:10] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:58:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:58:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:58:56] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:59:02] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:59:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:59:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 08:59:05] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:13] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:13] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:15] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:19] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:19] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:19] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:00:47] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:01:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:01:37] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:01:37] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:01:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:01:45] "[31m[1mGET /stop HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:01:58] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:08] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:08] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:58] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:58] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:02:58] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:04:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:04:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:04:35] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:04:35] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:04:35] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:05:45] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:05:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:05:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:05:46] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:05:46] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:05:46] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:05:51] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:07] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:07] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:07] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:07] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:09] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:11] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:20] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:21] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:22] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:22] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:22] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:23] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:23] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:23] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:07:24] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:18:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:18:42] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:18:42] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:18:42] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:06] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:07] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:07] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:19] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:21] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:27] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:27] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:27] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:20:30] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:21:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:21:25] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:21:25] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:21:25] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:28] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:28] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:28] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:34] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:36] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:38] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:38] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:38] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:48] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:53] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:23:53] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:29:19] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:29:21] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:33] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:33] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:33] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:36] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:38] "[31m[1mGET /start/COM5 HTTP/1.1[0m" 400 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:53] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:31:53] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:13] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:13] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:14] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:14] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:33:14] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:17] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:17] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:17] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:33] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:33] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:40] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:48] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:53] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:53] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:34:53] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:36:57] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:37:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:37:59] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:37:59] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:37:59] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:01] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:38] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:38] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:38] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:41] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:43] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:46] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 09:38:49] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 14:32:18] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 14:32:18] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 14:34:30] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.186 - - [03/Apr/2024 14:34:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 14:39:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 14:39:48] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 14:39:48] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 14:39:48] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 14:39:55] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 14:39:57] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 14:40:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:33] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:33] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:33] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:39] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:39] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:39] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:39] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:40] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:40] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:40] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:40] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:40] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:40] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:41] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:41] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:41] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:41] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:42] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:42] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:42] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:42] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:43] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:43] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:43] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:43] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:44] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:48] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:48] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:48] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:48] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:48] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:49] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:50] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:50] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:50] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:51] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:48:51] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:46] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:46] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:46] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:49] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:50] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:50] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:50] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:50] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:50] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:50] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:51] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:51] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:51] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:52] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:52] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:52] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:53] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:53] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:53] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:53] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:55] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:58] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:58] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:58] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:58] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:58] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:59] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:59] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:59] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:59] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:59] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:49:59] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:00] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:02] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:02] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:02] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:03] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:04] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:04] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:04] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:04] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:05] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:06] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:07] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:08] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:09] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:09] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:09] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:50:09] "GET /ptdrive/1/l/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:36] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:36] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:36] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:42] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:42] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:42] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:42] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:49] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:49] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:49] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:49] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:49] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:50] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:50] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:50] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:50] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:51] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:51] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:51] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:51] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:52] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:52] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:52] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:52] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:53] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:53] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:53] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:54] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:55] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:55] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:55] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:55] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:56] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:57] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:58] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:52:59] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:00] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:00] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:00] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:00] "GET /ptdrive/1/ur/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:04] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:05] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:06] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:06] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:06] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:07] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:07] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:07] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:07] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:07] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:07] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:08] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:08] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:08] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:08] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:08] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:08] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:09] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:09] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:09] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:09] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:09] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:09] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:53:10] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:40] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:40] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:43] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:44] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:45] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:51] "GET /zoom/1/out/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:52] "GET /zoom/1/out/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:55:59] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:00] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:00] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:00] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:01] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:02] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:02] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:02] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:02] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:02] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:02] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:03] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 15:56:03] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:26] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:27] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:28] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:29] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:29] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:29] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:32] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:38] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:38] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:38] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:40] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:44] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:45] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:46] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:47] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:48] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:48] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:48] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:48] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:48] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:49] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:49] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:49] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:49] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:49] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:49] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:50] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:50] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:50] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:50] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:54] "GET /zoom/1/in/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:54] "GET /zoom/1/in/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:55] "GET /zoom/1/in/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:55] "GET /zoom/1/in/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:55] "GET /zoom/1/in/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:01:55] "GET /zoom/1/in/0 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\work\\LDS\\PcEnv\\app\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:06] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:06] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:06] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:06] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:08] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:09] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:11] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:12] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:15] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:16] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:17] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:18] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:19] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:20] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:21] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:22] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:23] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:23] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:24] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:24] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:24] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:24] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:24] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:24] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:25] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:25] "GET /ptdrive/1/d/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:55] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:56] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:56] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:56] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:57] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:57] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:57] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:57] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:57] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:57] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:58] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:02:59] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:00] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:00] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:03] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:03] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:03] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:03] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:03] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:04] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:04] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:04] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:03:05] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:05] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:06] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:06] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:06] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:07] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:08] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:08] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:08] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:08] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:08] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:08] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:09] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:09] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:09] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:09] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:09] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:09] "GET /zoom/1/in/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:12] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:12] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:12] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:12] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:12] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:13] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:14] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:14] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:14] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:14] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:14] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:14] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:14] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:15] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:16] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:17] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:18] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:19] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:20] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:21] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:21] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:21] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:21] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:21] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:07:21] "GET /zoom/1/out/7 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:11:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:11:12] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:11:12] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:11:12] "GET / HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:11:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:11:30] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:11:30] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:45] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:47] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:47] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:50] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:51] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:51] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:54] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:55] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:55] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:11:56] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:53] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:57] "GET /ptdrive/1/ur/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:58] "GET /ptdrive/1/ur/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:58] "GET /ptdrive/1/ur/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:59] "GET /ptdrive/1/ur/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:12:59] "GET /ptdrive/1/ur/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:00] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:02] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:02] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:03] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:03] "GET /ptdrive/1/l/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:03] "GET /ptdrive/1/ul/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:04] "GET /ptdrive/1/ul/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:04] "GET /ptdrive/1/ul/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:04] "GET /ptdrive/1/ul/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:06] "GET /ptdrive/1/dr/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:11] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:11] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:12] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:12] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:12] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:12] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:13] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:13] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:13] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:13] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:14] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:14] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:14] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:14] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:13:15] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:15:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:15:48] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 16:15:48] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:15:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:15:59] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:15:59] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:03] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:03] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:06] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:55] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:57] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:58] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:58] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:16:59] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:17:01] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:17:01] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:17:03] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:17:03] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:17:04] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:17:04] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 16:17:05] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 18:09:57] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:53:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:53:09] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:53:09] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:53:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:53:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:53:45] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 18:54:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 18:54:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 18:54:15] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:58:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:58:14] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:58:14] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:59:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:59:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 18:59:27] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:34] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:34] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:41] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:00:51] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:01:05] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:01:06] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:01:06] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:01:09] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:01:09] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:01:10] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 19:01:11] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:14:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:14:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:14:13] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:22] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:44] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:44] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:15:46] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:17:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:17:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:17:02] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:19:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:19:07] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:19:07] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:20:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:20:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:20:50] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:47] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:50] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:52] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:53] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:55] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:56] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:21:58] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:22:02] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:22:02] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:24:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:24:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:24:18] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:25:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:25:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:25:16] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:27:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:27:58] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 21:27:58] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:23] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:23] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:25] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:26] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:27] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:27] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:30] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:35] "GET /ptdrive/1/dr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:35] "GET /ptdrive/1/dr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:35] "GET /ptdrive/1/dr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:36] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:40] "GET /ptdrive/1/dr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:44] "GET /ptdrive/1/dr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:45] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:28:45] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:03] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:05] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:07] "GET /preset/1/recall/2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:09] "GET /preset/1/recall/3 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:30] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:29:35] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:02] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:03] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:04] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:04] "GET /ptdrive/1/dlr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:37] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:38] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:39] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:39] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:40] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:41] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:41] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:43] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:44] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:45] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:45] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:46] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [03/Apr/2024 21:32:46] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:40] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:58] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:58] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:55:59] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:57:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:57:06] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 22:57:06] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:16] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:16] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:18] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:25] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:26] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:26] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:26] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:26] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:26] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:27] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:27] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:27] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:28] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:29] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:29] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:30] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:31] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:32] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:32] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:32] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:32] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:33] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:33] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:33] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:33] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:33] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:33] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:34] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:34] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:34] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:34] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:34] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:34] "GET /ptdrive/1/r/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:42] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:43] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:43] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:44] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:44] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:44] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:44] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:44] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:44] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:45] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:46] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:46] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:46] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:46] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:48] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:49] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:49] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:49] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:49] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:49] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:49] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:49] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:50] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:50] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:50] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:50] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:50] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:50] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:51] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:52] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:17:55] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:21:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:21:43] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:21:43] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:29] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:30] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:51] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:53] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:55] "GET /preset/1/recall/2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:57] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:22:58] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:23:01] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:23:01] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:23:05] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:23:06] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:23:07] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:23:08] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:28:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:28:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:28:24] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:31] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:35] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:37] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:44] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:55] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:56] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:57] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:28:57] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:13] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:16] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:24] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:25] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:25] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.186:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 221-701-997
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:49] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:49] "GET /getports HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:58] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:58] "GET /getports HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:59] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:31:59] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:32:02] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:32:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:32:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:32:05] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:34:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:34:43] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:34:44] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:35:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:35:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:35:08] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:36:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:36:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:36:00] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:36:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:36:10] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:36:10] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:36:23] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:36:24] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:36:25] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:40:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:40:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:40:18] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:40:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:40:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:40:42] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:42:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:42:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:42:49] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:43:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:43:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:43:48] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:43:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:43:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:43:58] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:44:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:44:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:21] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:23] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:24] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:24] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:24] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:45:25] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:30] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:31] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:35] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:36] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:36] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:45:41] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:46:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:46:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:46:16] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:24] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:24] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:25] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:28] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:29] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:46:29] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:47:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:47:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:47:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:47:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:49:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:49:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:49:27] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:06] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:10] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:50:10] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:15] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:17] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:17] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:20] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:21] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:24] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:26] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:27] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:43] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:50:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:35] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:36] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:54:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:44] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:44] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:46] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:51] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:52] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:52] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:57] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:59] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:54:59] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:55:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:55:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:55:20] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:55:22] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:55:22] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:56] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:57] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:58] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:55:59] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:56:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:56:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:07] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:08] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:13] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:14] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:14] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:17] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:17] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:56:20] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:57:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:57:09] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:57:09] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:57:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:57:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 06:57:10] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:16] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:18] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:19] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:20] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 06:57:21] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:18] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:18] "GET /static/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:21] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:22] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:23] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:26] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:26] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:06:29] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:12:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:12:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:12:24] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:36] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:36] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:38] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:39] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:12:40] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:10] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:18:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:18:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:18:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:18:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:18:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:18:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:18:57] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:02] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:03] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:19:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:11] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:12] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:12] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:14] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:14] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:14] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:17] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:17] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:19] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:20] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:20] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:27] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:29] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:33] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:35] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:37] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:42] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:44] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:46] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:47] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:48] "GET /ptdrive/1/dr/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:48] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:49] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:50] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:50] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:51] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:52] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:52] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:54] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:55] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:55] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:56] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:56] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:57] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:58] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:58] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:59] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:59] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:19:59] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:03] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:31] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:32] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:34] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:35] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:20:36] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:49] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:51] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:52] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:54] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:54] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:54] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:22:54] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:00] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:02] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:03] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:04] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:05] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:05] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:06] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:08] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:09] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:10] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:10] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:23:40] "GET /ptdrive/1/l/3 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:04] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:05] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:11] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:12] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:12] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:13] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:15] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:15] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:18] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:18] "GET /ptdrive/1/dr/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:39] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:25:40] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:42] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:43] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:43] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:45] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:45] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:51] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:53] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:25:55] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:53] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:54] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:54] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:55] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:57] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:57] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:58] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:58] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:28:59] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:00] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:01] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:01] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:01] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:01] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:01] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:02] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:02] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:03] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:03] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:04] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:04] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:29:07] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:08] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:10] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:10] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:11] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:12] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:13] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:13] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:13] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:13] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:13] "GET /ptdrive/1/r/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:34:16] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:20] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:21] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:23] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:24] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:24] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:25] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:25] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:26] "GET /ptdrive/1/ur/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:26] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:26] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:27] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:27] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:27] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:27] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:28] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:28] "GET /ptdrive/1/u/9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:28] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:29] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:29] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:30] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:30] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:31] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:31] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:31] "GET /zoom/1/in/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:33] "GET /zoom/1/out/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:33] "GET /zoom/1/out/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:33] "GET /zoom/1/out/4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:34] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:34] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:37] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:40] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:42] "GET /preset/1/recall/2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:42] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:44] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:44] "GET /preset/1/recall/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:45] "GET /preset/1/recall/0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:34:47] "GET /ptcenter/1 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:35:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:35:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:35:34] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:37:10] "[33mGET /reports/TreeReport_000001.pdf HTTP/1.1[0m" 404 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:39:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:39:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:39:43] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:39:45] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:44] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:44] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:46] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:46] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:48] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:54] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:54] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:58] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:58] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:58] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:58] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:59] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:59] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:59] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:59] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:59] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:40:59] "GET /ptdrive/1/r/17 HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:42:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:42:47] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:42:48] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:43:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:43:19] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:43:19] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:43:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:43:37] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:43:37] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:22] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:41] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:41] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:48] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:45:48] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:00] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:19] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:26] "[33mGET /start/ HTTP/1.1[0m" 404 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:34] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:34] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:36] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:36] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:39] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:45] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:45] "GET /getports HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:50] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:52] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:54] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:56] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:46:56] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:03] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:03] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:04] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:06] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:06] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:08] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:08] "GET /getports HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:10] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.248 - - [04/Apr/2024 07:47:12] "GET /checkport HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:47:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:47:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:47:54] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:47:54] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:47:57] "GET /stop HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:47:58] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:47:58] "GET /getports HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:00] "GET /checkport HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:00] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:02] "GET /stop HTTP/1.1" 200 -
+INFO:app:logger: index
+DEBUG:app:debug: index
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:03] "[31m[1mGET /checkport HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:03] "GET /getports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:04] "GET /start/COM5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 07:48:04] "GET /getports HTTP/1.1" 200 -

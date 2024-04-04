@@ -1,0 +1,22 @@
+-- setup directory
+mkdir <dir>
+cd <dir>
+
+-- start virtual environment
+py -3 -m venv .venv
+.venv\Scripts\activate
+
+-- copy code
+
+-- install libraries
+pip install Flask
+pip install Flask-Script
+pip install Flask-WTF
+pip install pyserial
+pip install netifaces
+
+-- start
+start.bat
+
+-- close virtual environment
+deactivate
