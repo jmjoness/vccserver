@@ -3,3 +3,4 @@ Werkzeug
 Flask-Script
 Flask-WTF
 pyserial
+netifaces
